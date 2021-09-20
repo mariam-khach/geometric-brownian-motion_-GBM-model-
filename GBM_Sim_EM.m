@@ -16,4 +16,4 @@ EX=X0*exp(tc*mu);
 plot(tc, X); 
 xlabel('Time', 'FontSize', 14);
 ylabel('Wealth', 'FontSize', 14);
-title('Simulations GBM trajectories', 'FontSize', 15);
+title('GBM trajectories', 'FontSize', 15);
