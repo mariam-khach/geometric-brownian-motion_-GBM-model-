@@ -3,7 +3,7 @@ clear all
 rng('default');
 %parameters
 mu = 0.02; sigma= 0.15; X0 = 25; mu_bar = mu-0.5*sigma^2;
-T = 20; N = 100; M=2500; dt = T/M; 
+T = 20; N = 10; M=2500; dt = T/M; 
 tau= 0.2; %reallocation parameter
 X        = ones(M,N)*X0;
 %Z       = ones(M,N)*X0;
